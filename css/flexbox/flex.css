@@ -1,0 +1,10 @@
+.flex{
+  display: flex;
+}
+
+.flex > *{
+  border: 1px solid red !important;
+  flex-grow: 1;
+  /* flex-shrink: ; */
+  flex-basis: 100px;
+}
